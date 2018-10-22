@@ -1,0 +1,51 @@
+/*=============================================
+			Theme Color
+=============================================*/
+a,
+p a,
+p a:hover,
+a:hover,
+a:focus,
+a:active,
+.tg-stars span:after,
+.tg-section-head h2,
+.tg-themenavtabs ul li:after,
+.tg-themenavtabs ul li:hover a,
+.tg-themenavtabs ul li.active a,
+.tg-post:hover .tg-blogheading h3 a,
+.tg-btn:hover i,
+.tg-post:hover .tg-btn,
+.tg-post:hover .tg-btn i,
+.tg-themelist li:after,
+.tg-commenter:hover .tg-btn,
+.tg-commenter:hover .tg-btn i,
+button.tg-btn:hover,
+.tg-counter:hover .tg-countercontent h2,
+.tg-skill:hover .tg-skillname,
+.tg-skill:hover .tg-skillbar span,
+.tg-searcharea fieldset .form-group .tg-btn:hover i,
+.tg-404content h1 span,
+.tg-btnbooknow:hover,
+.tg-btnbooknow:hover i,
+.tg-dropdowarrow{color: #fe6b28;}
+/*=============================================
+			Theme Background Color
+=============================================*/
+.tg-navigation > ul > li:hover > a,
+.tg-filescount,
+.tg-commentername:after,
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span,
+.tg-blogdetail .tg-description blockquote:after,
+.tg-skill:hover .tg-skillbar,
+.tg-maincatagory i{background:#fe6b28;}
+.tg-themescrollbar .mCSB_dragger .mCSB_dragger_bar,
+li.tg-hasdropdown > ul.tg-submenu > li:hover > a{background:#fe6b28 !important;}
+/*=============================================
+			Theme Border Color
+=============================================*/
+.tg-navigation ul li:hover + li,
+.tg-slidercatagory,
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span,
+.tg-counter:hover .tg-countercontent{border-color: #fe6b28;}
