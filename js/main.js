@@ -6,7 +6,7 @@ jQuery(document).on('ready', function() {
 	/* -------------------------------------
 			NAVIGATION
 	-------------------------------------- */
-	jQuery("#tg-navbutton").on('click', function(){
+	jQuery(".tg-navbutton").on('click', function(){
 		jQuery(this).toggleClass("tg-navbuttonout");
 		jQuery(".mobile-inner-nav").slideToggle(250);
 	});
@@ -31,7 +31,7 @@ jQuery(document).on('ready', function() {
 	/* -------------------------------------
 			HOME BANNER 1
 	-------------------------------------- */
-	jQuery("#tg-homeslider").owlCarousel({
+	jQuery(".tg-homeslider").owlCarousel({
 		autoPlay: false,
 		pagination:false,
 		navigation : true,
@@ -49,7 +49,7 @@ jQuery(document).on('ready', function() {
 	/* -------------------------------------
 			BANNER SLIDER 2
 	-------------------------------------- */
-	jQuery("#tg-mainslider").owlCarousel({
+	jQuery(".tg-mainslider").owlCarousel({
 		autoPlay: false,
 		singleItem: true,
 		pagination:false,
@@ -63,8 +63,8 @@ jQuery(document).on('ready', function() {
 			SERVICES PAGE
 	------------------------------------------*/
 	setTimeout(function(){
-		if(jQuery('#tg-multiscroll').length > 0){
-			jQuery('#tg-multiscroll').multiscroll({
+		if(jQuery('.tg-multiscroll').length > 0){
+			jQuery('.tg-multiscroll').multiscroll({
 				css3: true,
 				touchSensitivity: 5,
 				leftSelector: '.tg-leftsection',
@@ -167,7 +167,7 @@ jQuery(document).on('ready', function() {
 	/* -------------------------------------
 			PORTFOLIO SLIDER
 	-------------------------------------- */
-	jQuery("#tg-portfolioslider").owlCarousel({
+	jQuery(".tg-portfolioslider").owlCarousel({
 		paginationSpeed : 400,
 		navigation : false,
 		slideSpeed : 300,
@@ -180,7 +180,7 @@ jQuery(document).on('ready', function() {
 	/* -------------------------------------
 			PORTFOLIO SLIDER
 	-------------------------------------- */
-	jQuery("#tg-portfolioslider2").owlCarousel({
+	jQuery(".tg-portfolioslider2").owlCarousel({
 		paginationSpeed : 400,
 		navigation : false,
 		slideSpeed : 300,
@@ -193,7 +193,7 @@ jQuery(document).on('ready', function() {
 	/* -------------------------------------
 			PORTFOLIO SLIDER
 	-------------------------------------- */
-	jQuery("#tg-portfolioslider3").owlCarousel({
+	jQuery(".tg-portfolioslider3").owlCarousel({
 		paginationSpeed : 400,
 		navigation : false,
 		slideSpeed : 300,
@@ -206,7 +206,7 @@ jQuery(document).on('ready', function() {
 	/* -------------------------------------
 			PORTFOLIO SLIDER
 	-------------------------------------- */
-	jQuery("#tg-portfolioslider4").owlCarousel({
+	jQuery(".tg-portfolioslider4").owlCarousel({
 		paginationSpeed : 400,
 		navigation : false,
 		slideSpeed : 300,
@@ -219,8 +219,8 @@ jQuery(document).on('ready', function() {
 	/* -------------------------------------
 			PORTFOLIO MODAL SLIDER
 	-------------------------------------- */
-	var sync1 = jQuery("#tg-portfoliodetailslider");
-	var sync2 = jQuery("#tg-portfoliosliderthumbs");
+	var sync1 = jQuery(".tg-portfoliodetailslider");
+	var sync2 = jQuery(".tg-portfoliosliderthumbs");
 		sync1.owlCarousel({
 		singleItem : true,
 		slideSpeed : 1000,
@@ -247,16 +247,16 @@ jQuery(document).on('ready', function() {
 	});
 	function syncPosition(el){
 		var current = this.currentItem;
-		jQuery("#tg-portfoliosliderthumbs")
+		jQuery(".tg-portfoliosliderthumbs")
 		.find(".owl-item")
 		.removeClass("synced")
 		.eq(current)
 		.addClass("synced")
-		if(jQuery("#tg-portfoliosliderthumbs").data("owlCarousel") !== undefined){
+		if(jQuery(".tg-portfoliosliderthumbs").data("owlCarousel") !== undefined){
 		center(current)
 		}
 	}
-	jQuery("#tg-portfoliosliderthumbs").on("click", ".owl-item", function(e){
+	jQuery(".tg-portfoliosliderthumbs").on("click", ".owl-item", function(e){
 		e.preventDefault();
 		var number = jQuery(this).data("owlItem");
 		sync1.trigger("owl.goTo",number);
@@ -288,7 +288,7 @@ jQuery(document).on('ready', function() {
 	/* -------------------------------------
 			BLOG GRID SLIDER
 	-------------------------------------- */
-	jQuery("#tg-bloggridslider").owlCarousel({
+	jQuery(".tg-bloggridslider").owlCarousel({
 		autoPlay: false,
 		pagination:true,
 		navigation : false,
@@ -303,7 +303,7 @@ jQuery(document).on('ready', function() {
 	/* -------------------------------------
 			BLOG LIST SLIDER
 	-------------------------------------- */
-	jQuery("#tg-bloglistslider").owlCarousel({
+	jQuery(".tg-bloglistslider").owlCarousel({
 		autoPlay: false,
 		pagination:true,
 		navigation : false,
@@ -312,7 +312,7 @@ jQuery(document).on('ready', function() {
 	/* -------------------------------------
 			CHECKBOX SCROLL
 	-------------------------------------- */
-	jQuery("#tg-themescrollbar").mCustomScrollbar({
+	jQuery(".tg-themescrollbar").mCustomScrollbar({
 		axis:"y",
 	});
 	/* --------------------------------------
