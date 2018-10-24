@@ -127,6 +127,7 @@
 		display: block;
 	}
 	.tg-logo{
+		width: auto;
 		margin: 0 auto;
 		-webkit-transform: rotate(0);
 		-moz-transform: rotate(0);

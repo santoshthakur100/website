@@ -1015,6 +1015,8 @@ li.tg-hasdropdown{position:relative;}
 }
 .tg-navbottom .tg-socialicons{float:right;}
 .tg-logo{
+	/* border: 1px solid red; */
+	text-align: center;
 	width:157px;
 	display:block;
 	-webkit-transform: rotate(-90deg);
@@ -1029,7 +1031,7 @@ li.tg-hasdropdown{position:relative;}
 	transform-origin: 50%;
 }
 .tg-logo a{ display:block;}
-.tg-logo a img{ display:block;}
+/* .tg-logo a img{ display:block;} */
 .tg-header .tg-socialicons{
 	left:0;
 	bottom:0;
